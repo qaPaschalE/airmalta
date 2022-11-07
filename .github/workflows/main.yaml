@@ -19,5 +19,5 @@ jobs:
         with:
           # Specify Browser since container image is compile with Firefox
           browser: chrome
-      _ name: Posttest
+      - name: Posttest
         run: npm run posttest
