@@ -19,4 +19,3 @@ cypress/screenshots
 cypress/videos
 cypress/mochareports
 cypress/reports
-.gitlab-ci.yml
