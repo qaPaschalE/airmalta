@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node", "cypress-real-events"]
+  },
+  "include": [
+    "**/*.ts",
+    "plugins/index.ts",
+    "support/e2e.js",
+    "support/commands.js"
+  ]
+}
