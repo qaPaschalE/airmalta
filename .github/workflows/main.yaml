@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        run: sudo chown -R $USER:$USER /home/github/actions-runner/_work/airmalta
+        sudo chown -R $USER:$USER /home/github/actions-runner/_work/airmalta
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Pretest
