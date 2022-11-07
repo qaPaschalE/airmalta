@@ -1,5 +1,7 @@
 ## clone repository
 
+https://github.com/qaPaschalE/airmalta.git
+
 ## Install dependencies
 
 npm install
